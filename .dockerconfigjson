@@ -1,9 +1,0 @@
-cat <<EOF > .dockerconfigjson
-{
-  "auths": {
-    "https://index.docker.io/v1/": {
-      "auth": "$(echo -n "$DOCKER_USERNAME:$DOCKER_PASSWORD" | base64)"
-    }
-  }
-}
-EOF
