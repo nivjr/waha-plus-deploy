@@ -1,0 +1,5 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "docker run -p $PORT:3000 -e WAHA_LICENSE_KEY=$WAHA_LICENSE_KEY devlikeapro/waha-plus:latest"
