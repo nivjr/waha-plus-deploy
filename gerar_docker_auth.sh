@@ -50,3 +50,5 @@ echo "   Name: DOCKER_AUTH_CONFIG"
 echo "   Value: (cole o conteúdo já copiado)"
 echo
 echo "🎯 Depois é só fazer o deploy novamente!"
+chmod +x gerar_docker_auth.sh
+./gerar_docker_auth.sh
