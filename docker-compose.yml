@@ -2,7 +2,7 @@ version: '3'
 services:
   waha:
     image: devlikeapro/waha-plus:latest
-    ports:
-      - "3000:3000"
+    port:
+      - 3000
     environment:
       - WAHA_LICENSE_KEY=d0e7_pci_tMFcC2gfn4cGrSPym6cyNkszYtLSD
