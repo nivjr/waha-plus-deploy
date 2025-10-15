@@ -1,0 +1,8 @@
+version: '3'
+services:
+  waha:
+    image: devlikeapro/waha-plus:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - WAHA_LICENSE_KEY=${dckr_pat_tMFuCZgNdkqZp9peXcyN4a75L30}
