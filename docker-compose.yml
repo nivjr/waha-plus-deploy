@@ -1,7 +1,7 @@
 version: '3'
 services:
   waha:
-    image: devlikeapro/waha-plus:latest
+    image: devlikeapro/waha-plus:chrome
     port:
       - 3000
     environment:
