@@ -5,4 +5,4 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - WAHA_LICENSE_KEY=${dckr_pat_tMFuCZgNdkqZp9peXcyN4a75L30}
+      - WAHA_LICENSE_KEY=${d0e7_pci_tMFcC2gfn4cGrSPym6cyNkszYtLSD}
