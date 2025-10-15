@@ -1,8 +1,0 @@
-version: '3'
-services:
-  waha:
-    image: devlikeapro/waha-plus:chrome
-    port:
-      - 3000
-    environment:
-      - WAHA_LICENSE_KEY=dckr_pat_tMFuCZgNdkqZp9peXcyN4a75L30
